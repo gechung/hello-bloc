@@ -14,12 +14,6 @@
   padding-top: 1%;
 }
 
-.image3 {
-  width: 275px;
-  height: auto;
-  padding-top: 2%;
-}
-
 .map-pic {
   display: block;
   margin-left: auto;
@@ -77,9 +71,10 @@ body {
 }
 
 p {
-  text-align: left;
+  text-align: center;
   line-height: 25px;
-  font-weight: bold;
+  padding-top: 20px;
+  font-size: 25px;
 }
 
 h1, h2, h4, h5, h6 {
