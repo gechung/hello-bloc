@@ -3,63 +3,87 @@
   <head>
     <meta charset="utf-8">
     <title>Grace's Frontend Challenge</title>
-    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Ruda:400,700,900&amp;subset=latin-ext" rel="stylesheet">    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://use.fontawesome.com/37471687aa.js"></script>
   </head>
   <body>
     <section class="container">
       <header>
-        <img src="images/AppleStatusBar.png" class="image3" alt="ASB"/>
-        <img src="images/heart.png" class="image" alt="iOS fav"/>
-        <img src="images/left-arrow.png" class="image2" alt="iOS left-arrow"/>
-        <p id="first"> Washington / State </p>
-        <nav>
-          <h1>To:</h1>
-          <h1>From: Your location</h1>
-        </nav>
+        <img src="images/AppleStatusBar.png" class="StatusBar" alt="ASB"/>
+        <img src="images/left-arrow.png" class="left-arrow" alt="LA"/>
+        <img src="images/heart_i.png" class="favourite" alt="F"/>
+        <h1> Washington / State </h1>
+      </header>
+      <br>
+      <nav>
+        <form action="/action_page.php">
+          To: <input type="text" name="to"><br>
+          <br>
+          From: <input type="text" name="from"><br>
+          <br>
+          <input type="submit" value="Go">
+        </form>
+        <br>
       <figure>
         <img src="images/iOsMap2.jpeg" class="map-pic" alt="iOs Map">
       </figure>
-    </header>
-        <section class="line">
-          <h2>Eastbound</h2>
-            <ul>
-            <p>Destination: Randolph / Harbor Dr.</p>
-              <li>Line: 60</li>
-              <li>Frequency: Every 20 minutes</li>
-            <p>Destination: Navy Pier</p>
-              <li>Line: 124</li>
-              <li>Frequency: Every 10 minutes</li></ul>
-          <h3>Northbound</h3>
-            <ul>
-            <p>Destination: Devon / Clark</p>
-              <li>Line: 151</li>
-              <li>Frequency: Every 16 minutes</li></ul>
-          <h4>Southbound</h4>
-            <ul>
-            <p>Destination: 103rd / Stony Island</p>
-              <li>Line: J14</li>
-              <li>Frequency: Every 15 minutes</li>
-            <p>Destination: Navy Pier</p>
-              <li>Line: 124</li>
-              <li>Frequency: Every 10 minutes</li></ul>
-          <h5>Reroute</h5>
-            <ul>
-            <p>Destination: Jackson Park Express</p>
-              <li>Line: 6x</li>
-              <li>Frequency: N/A</li></ul>
-          <h6>Out of service</h6>
-            <ul>
-            <p>Destination: Cottage Grove</p>
-              <li>Line: 4</li>
-            <p id="italics">Frequency: Resumes 12:10am</p>
-            <p>Destination: Madison</p>
-              <li>Line: 20</li>
-            <p id="italics">Frequency: Resumes 12:10am</p>
-            <p>Destination: Streeterville / Taylor</p>
-              <li>Line: 157</li>
-            <p id="italics">Frequency: Resumes 6:00am</p></ul>
+    </nav>
+      <section class="line">
+        <h3>Eastbound</h3>
+        <h4>Destination: Randolph / Harbor Dr.</h4>
+          <ul>
+            <li>Line: 60</li>
+            <li>Frequency: Every 20 minutes</li>
+          </ul>
+        <br>
+        <h4>Destination: Navy Pier</h4>
+          <ul>
+            <li>Line: 124</li>
+            <li>Frequency: Every 10 minutes</li>
+          </ul>
+        <h3>Northbound</h3>
+        <h4>Destination: Devon / Clark</h4>
+          <ul>
+            <li>Line: 151</li>
+            <li>Frequency: Every 16 minutes</li>
+          </ul>
+        <h3>Southbound</h3>
+        <h4>Destination: 103rd / Stony Island</h4>
+          <ul>
+            <li>Line: J14</li>
+            <li>Frequency: Every 15 minutes</li>
+          </ul>
+        <br>
+        <h4>Destination: Navy Pier</h4>
+          <ul>
+            <li>Line: 124</li>
+            <li>Frequency: Every 10 minutes</li>
+          </ul>
+        <h3>Reroute</h3>
+        <h4>Destination: Jackson Park Express</h4>
+          <ul>
+            <li>Line: 6x</li>
+            <li>Frequency: N/A</li>
+          </ul>
+        <h3>Out of service</h3>
+        <h4>Destination: Cottage Grove</h4>
+          <ul>
+            <li>Line: 4</li>
+          </ul>
+          <div class="italics">Frequency: Resumes 12:10am</div>
+        <br>
+        <h4>Destination: Madison</h4>
+          <ul>
+            <li>Line: 20</li>
+          </ul>
+          <div class="italics">Frequency: Resumes 12:10am</div>
+        <br>
+        <h4>Destination: Streeterville / Taylor</h4>
+          <ul>
+            <li>Line: 157</li>
+          </ul>
+          <div class="italics">Frequency: Resumes 6:00am</div>
         </section>
       </section>
   </body>
