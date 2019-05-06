@@ -57,7 +57,7 @@ h1 {
   padding-top: 1%;
 }
 
-h3 {
+h3, h5, h6 {
   background-color: #f2f2f2;
   font-size: 15.5px;
   color: #000080;
@@ -68,6 +68,14 @@ h3 {
 
 h4 {
   font-weight: bold;
+}
+
+h5 {
+  color: #e1ad01;
+}
+
+h6 {
+  color: red;
 }
 
 body {
